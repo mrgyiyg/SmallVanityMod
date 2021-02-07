@@ -5,16 +5,16 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-6 Vanity Items:
--His Visage
--His Tail
--Perry's Face
--Antlion Mask
--Twinkle Popper Mask
--Toxic Sludge Mask
+6 Vanity Items:<br>
+-His Visage<br>
+-His Tail<br>
+-Perry's Face<br>
+-Antlion Mask<br>
+-Twinkle Popper Mask<br>
+-Toxic Sludge Mask<br>
 
-2 Pets:
--Transitional Digital Friend
+2 Pets:<br>
+-Transitional Digital Friend<br>
 -Flow Invader Shard
 
-this is the same as description.txt
+this is the same as description.txt, essentially
