@@ -12,6 +12,7 @@ current contents:
 -Antlion Mask<br>
 -Twinkle Popper Mask<br>
 -Toxic Sludge Mask<br>
+-Crab Claw<br>
 
 2 Pets:<br>
 -Transitional Digital Friend<br>
