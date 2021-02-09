@@ -13,6 +13,7 @@ current contents:
 -Twinkle Popper Mask<br>
 -Toxic Sludge Mask<br>
 -Crab Claw<br>
+-Dr. Ant's Head<br>
 -Larupia Hat<br>
 -Gnome Child Hat<br>
 
