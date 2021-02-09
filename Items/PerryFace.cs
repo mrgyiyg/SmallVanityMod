@@ -1,5 +1,8 @@
-using Terraria.ModLoader;
+using Terraria;
 using Terraria.ID;
+using Terraria.ModLoader;
+using static Terraria.ModLoader.ModContent;
+using Microsoft.Xna.Framework;
 
 namespace SmallVanityProject.Items
 {
@@ -17,6 +20,7 @@ namespace SmallVanityProject.Items
 			item.height = 26;
 			item.rare = ItemRarityID.Yellow;
 			item.vanity = true;
+			item.value = Item.sellPrice(0, 0, 50, 0);
 		}
 
 		public override bool DrawHead() {
