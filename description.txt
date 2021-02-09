@@ -1,3 +1,26 @@
+You're So Vain, You Probably Think This Mod Is About You
+
+small first test mod that adds a couple vanity items. that's all
+
+current contents:
+
+7 Vanity Items:
+-His Visage
+-His Tail
+-Perry's Face
+-Antlion Mask
+-Twinkle Popper Mask
+-Toxic Sludge Mask
+-Crab Claw
+-Dr. Ant's Head
+-Larupia Hat
+-Gnome Child Hat
+-H'ween Mask
+
+2 Pets:
+-Transitional Digital Friend
+-Flow Invader Shard
+
 Changelog:
 
 0.1.3.4
