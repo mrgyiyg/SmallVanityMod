@@ -16,6 +16,7 @@ current contents:
 -Dr. Ant's Head<br>
 -Larupia Hat<br>
 -Gnome Child Hat<br>
+-H'ween Mask<br>
 
 2 Pets:<br>
 -Transitional Digital Friend<br>
