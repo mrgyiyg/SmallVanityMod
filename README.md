@@ -13,6 +13,8 @@ current contents:
 -Twinkle Popper Mask<br>
 -Toxic Sludge Mask<br>
 -Crab Claw<br>
+-Larupia Hat<br>
+-Gnome Child Hat<br>
 
 2 Pets:<br>
 -Transitional Digital Friend<br>
