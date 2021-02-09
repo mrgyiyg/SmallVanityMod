@@ -4,6 +4,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Mono.Cecil.Cil;
+using static Terraria.ModLoader.ModContent;
+using Microsoft.Xna.Framework;
 
 namespace SmallVanityProject.Items
 {
@@ -23,6 +25,7 @@ namespace SmallVanityProject.Items
 			item.width = 7;
 			item.height = 21;
 			item.rare = ItemRarityID.Blue;
+			item.value = Item.sellPrice(0, 1, 50, 0);
 		}
 
 		public override void UpdateAccessory(Player player, bool hideVisual) {
