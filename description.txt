@@ -1,22 +1,34 @@
-You're So Vain, You Probably Think This Mod Is About You
+Changelog:
 
-small first test mod that adds a couple vanity items. that's all
+0.1.3.4
+-minor graphical adjustments
 
-current contents:
+0.1.3.3
+-added Dr. Ant mask
+-added Larupia hat
+-added Gnome Child hat
+-added H'ween mask
 
-6 Vanity Items:
--His Visage
--His Tail
--Perry's Face
--Antlion Mask
--Twinkle Popper Mask
--Toxic Sludge Mask
--Crab Claw
--Dr. Ant's Head
--Larupia Hat
--Gnome Child Hat
--H'ween Mask
+0.1.3.2
+-added Crab claw
 
-2 Pets:
--Transitional Digital Friend
--Flow Invader Shard
+0.1.3.1
+-integrated github, activated browser icon
+-minor drop rate adjustments
+
+0.1.3.0
+-added Toxic Sludge mask
+-added Mini Flow Invader pet
+
+0.1.2.0
+-added Kuromametchi pet
+
+0.1.1.0
+-added Antlion mask
+-added Twinkle Popper mask
+-added icon (not in browser yet)
+
+0.1.0.0
+-initial release
+-added Gyiyg mask and tail
+-added mask based on my pet shrimp, Perry
