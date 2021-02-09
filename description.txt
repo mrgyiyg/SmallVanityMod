@@ -23,6 +23,9 @@ current contents:
 
 Changelog:
 
+0.1.3.5
+-added sell prices to items that were missing it
+
 0.1.3.4
 -minor graphical adjustments
 
