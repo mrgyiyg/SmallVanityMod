@@ -25,9 +25,14 @@ current contents:
 
 Changelog:
 
+0.1.3.8
+-added some lighting effects
+
+0.1.3.7
+-added Milkyway Scarf
+
 0.1.3.6
 -added Funny Mouth
--added Milkyway Scarf
 
 0.1.3.5
 -added sell prices to items that were missing it
