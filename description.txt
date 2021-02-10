@@ -4,7 +4,7 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-7 Vanity Items:
+13 Vanity Items:
 -His Visage
 -His Tail
 -Perry's Face
