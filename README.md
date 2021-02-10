@@ -5,7 +5,7 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-6 Vanity Items:<br>
+13 Vanity Items:<br>
 -His Visage<br>
 -His Tail<br>
 -Perry's Face<br>
@@ -17,12 +17,18 @@ current contents:
 -Larupia Hat<br>
 -Gnome Child Hat<br>
 -H'ween Mask<br>
+-Funny Mouth<br>
+-Milkyway Scarf<br>
 
 2 Pets:<br>
 -Transitional Digital Friend<br>
 -Flow Invader Shard
 
 Changelog:
+
+0.1.3.6<br>
+-added Funny Mouth<br>
+-added Milkyway Scarf
 
 0.1.3.5<br>
 -added sell prices to items that were missing it
