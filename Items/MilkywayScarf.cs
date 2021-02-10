@@ -28,7 +28,7 @@ namespace SmallVanityProject.Items
 		
 		public override void PostDrawInWorld(SpriteBatch spriteBatch, Color lightColor, Color alphaColor, float rotation, float  scale, int whoAmI) 	
 {
-	Texture2D texture = mod.GetTexture("MilkywayScarf_Glow");
+	Texture2D texture = mod.GetTexture("Items/Glow/MilkywayScarf_Glow");
 	spriteBatch.Draw
 	(
 		texture,
