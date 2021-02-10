@@ -5,7 +5,7 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-13 Vanity Items:<br>
+14 Vanity Items:<br>
 -His Visage<br>
 -His Tail<br>
 -Perry's Face<br>
@@ -19,6 +19,7 @@ current contents:
 -H'ween Mask<br>
 -Funny Mouth<br>
 -Milkyway Scarf<br>
+-Malignant Cranial-Infesting Star Cell
 
 2 Pets:<br>
 -Transitional Digital Friend<br>
@@ -26,9 +27,19 @@ current contents:
 
 Changelog:
 
+0.1.3.9<br>
+-added Star Cell mask<br>
+-fixed some item glowmasks (equip glowmasks wip)<br>
+-drop rate adjustments
+
+0.1.3.8<br>
+-added some lighting effects
+
+0.1.3.7<br>
+-added Milkyway Scarf
+
 0.1.3.6<br>
 -added Funny Mouth<br>
--added Milkyway Scarf
 
 0.1.3.5<br>
 -added sell prices to items that were missing it
