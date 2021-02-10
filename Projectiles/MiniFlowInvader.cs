@@ -1,3 +1,5 @@
+using System;
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -43,6 +45,10 @@ namespace SmallVanityProject.Projectiles
             {
                 projectile.timeLeft = 2;
             }
+            
+            #region Animation and visuals
+		Lighting.AddLight(projectile.Center, Color.Cyan.ToVector3() * 0.18f);
+		#endregion
         }
 
     }
