@@ -41,6 +41,22 @@ public class ModGlobalNPC : GlobalNPC
                     Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("CrabClaw"));
                 }
             }
+            
+             if (Main.rand.Next(50) == 0)
+            {
+                if (npc.type == NPCID.StardustWormBody)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("MilkywayScarf"));
+                }
+                else if (npc.type == NPCID.StardustWormHead)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("MilkywayScarf"));
+                }
+                else if (npc.type == NPCID.StardustWormTail)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("MilkywayScarf"));
+                }
+            }
         }
         
         public override void SetupShop(int type, Chest shop, ref int nextSlot) {
