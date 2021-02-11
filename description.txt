@@ -26,6 +26,10 @@ current contents:
 
 Changelog:
 
+0.1.4.1
+-implemented equipment glowmasks
+-drop rate adjustments
+
 0.1.4.0
 -sprite adjustments
 -glowmask adjustments
