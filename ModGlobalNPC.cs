@@ -48,16 +48,24 @@ public class ModGlobalNPC : GlobalNPC
                 {
                     Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("MilkywayScarf"));
                 }
-                else if (npc.type == NPCID.StardustWormHead)
+            }
+            
+                         if (Main.rand.Next(50) == 0)
+            {
+                if (npc.type == NPCID.StardustCellBig)
                 {
-                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("MilkywayScarf"));
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("StarCell"));
                 }
-                else if (npc.type == NPCID.StardustWormTail)
+                }
+                
+                if (Main.rand.Next(50) == 0)
                 {
-                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("MilkywayScarf"));
+		 if (npc.type == NPCID.StardustCellSmall)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("StarCell"));
+                }
                 }
             }
-        }
         
         public override void SetupShop(int type, Chest shop, ref int nextSlot) {
 		if (type == NPCID.Merchant) {
@@ -72,4 +80,4 @@ public class ModGlobalNPC : GlobalNPC
 		}
 	}
     }
-}
+ }
