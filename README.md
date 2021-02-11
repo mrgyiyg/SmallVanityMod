@@ -27,6 +27,10 @@ current contents:
 
 Changelog:
 
+0.1.4.0<br>
+-sprite adjustments<br>
+-glowmask adjustments
+
 0.1.3.9<br>
 -added Star Cell mask<br>
 -fixed some item glowmasks (equip glowmasks wip)<br>
