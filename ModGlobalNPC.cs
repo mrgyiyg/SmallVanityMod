@@ -44,7 +44,23 @@ public class ModGlobalNPC : GlobalNPC
             
              if (Main.rand.Next(50) == 0)
             {
+                if (npc.type == NPCID.StardustWormHead)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("MilkywayScarf"));
+                }
+            }
+            
+              if (Main.rand.Next(50) == 0)
+            {
                 if (npc.type == NPCID.StardustWormBody)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("MilkywayScarf"));
+                }
+            }
+            
+             if (Main.rand.Next(50) == 0)
+            {
+                if (npc.type == NPCID.StardustWormTail)
                 {
                     Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("MilkywayScarf"));
                 }
@@ -58,7 +74,7 @@ public class ModGlobalNPC : GlobalNPC
                 }
                 }
                 
-                if (Main.rand.Next(50) == 0)
+                if (Main.rand.Next(90) == 0)
                 {
 		 if (npc.type == NPCID.StardustCellSmall)
                 {
