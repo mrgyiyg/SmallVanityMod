@@ -81,6 +81,14 @@ public class ModGlobalNPC : GlobalNPC
                     Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("StarCell"));
                 }
                 }
+                
+                         if (Main.rand.Next(50) == 0)
+            {
+                if (npc.type == NPCID.Clown)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("JesterMask"));
+                }
+                }
             }
         
         public override void SetupShop(int type, Chest shop, ref int nextSlot) {
@@ -92,6 +100,10 @@ public class ModGlobalNPC : GlobalNPC
 			shop.item[nextSlot].SetDefaults(ModContent.ItemType<GnomeChild>(), false);
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(ModContent.ItemType<HweenMask>(), false);
+			nextSlot++;
+		}
+		else if (type == NPCID.Dryad) {
+			shop.item[nextSlot].SetDefaults(ModContent.ItemType<LeafMask>(), false);
 			nextSlot++;
 		}
 	}
