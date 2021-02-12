@@ -4,7 +4,7 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-14 Vanity Items:
+18 Vanity Items:
 -His Visage
 -His Tail
 -Perry's Face
@@ -19,12 +19,19 @@ current contents:
 -Funny Mouth
 -Milkyway Scarf
 -Malignant Cranial-Infesting Star Cell
+-Red Pumpkinhead
+-Green Pumpkinhead
+-Purple Pumpkinhead
+-Yellow Pumpkinhead
 
 2 Pets:
 -Transitional Digital Friend
 -Flow Invader Shard
 
 Changelog:
+
+0.1.4.2
+-added Pumpkinheads
 
 0.1.4.1
 -implemented equipment glowmasks
