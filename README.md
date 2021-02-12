@@ -19,13 +19,20 @@ current contents:
 -H'ween Mask<br>
 -Funny Mouth<br>
 -Milkyway Scarf<br>
--Malignant Cranial-Infesting Star Cell
+-Malignant Cranial-Infesting Star Cell<br>
+-Red Pumpkinhead<br>
+-Green Pumpkinhead<br>
+-Purple Pumpkinhead<br>
+-Yellow Pumpkinhead
 
 2 Pets:<br>
 -Transitional Digital Friend<br>
 -Flow Invader Shard
 
 Changelog:
+
+0.1.4.2<br>
+-added Pumpkinheads
 
 0.1.4.1<br>
 -implemented equipment glowmasks<br>
