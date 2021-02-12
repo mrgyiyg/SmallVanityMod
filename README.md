@@ -5,7 +5,7 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-14 Vanity Items:<br>
+21 Vanity Items:<br>
 -His Visage<br>
 -His Tail<br>
 -Perry's Face<br>
@@ -23,13 +23,21 @@ current contents:
 -Red Pumpkinhead<br>
 -Green Pumpkinhead<br>
 -Purple Pumpkinhead<br>
--Yellow Pumpkinhead
+-Yellow Pumpkinhead<br>
+-Jester's Mask<br>
+-Leaf Mask<br>
+-Cutesy Skeleton Hood
 
 2 Pets:<br>
 -Transitional Digital Friend<br>
 -Flow Invader Shard
 
 Changelog:
+
+0.1.4.3<br>
+-added Jester's Mask<br>
+-added Leaf Mask<br>
+-added Cutesy Skeleton Hood
 
 0.1.4.2<br>
 -added Pumpkinheads
