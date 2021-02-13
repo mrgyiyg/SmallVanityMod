@@ -31,7 +31,14 @@ current contents:
 -Transitional Digital Friend
 -Flow Invader Shard
 
+1 Light Pet:
+-Shrimp Spirit Vial
+
+
 Changelog:
+
+0.1.4.4
+-added a light pet based on my pet shrimp, Perry
 
 0.1.4.3
 -added Jester's Mask

@@ -1,6 +1,6 @@
 displayName = You're So Vain
 author = gyiyg
-version = 0.1.4.3
+version = 0.1.4.4
 homepage = https://github.com/mrgyiyg/SmallVanityMod
 hideCode = false
 hideResources = false
