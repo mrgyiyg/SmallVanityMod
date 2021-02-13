@@ -26,6 +26,7 @@ namespace SmallVanityProject.BaseFiles
         public bool minionName;
         public bool kuroMame;
         public bool flowInvaded;
+        public bool perryPerihelion;
         public static bool hasProjectile;
 
         public override void ResetEffects()
@@ -33,6 +34,7 @@ namespace SmallVanityProject.BaseFiles
             minionName = false;
             kuroMame = false;
             flowInvaded = false;
+            perryPerihelion = false;
         }        
 public static readonly PlayerLayer StarCellMaskGlow = new PlayerLayer("SmallVanityProject", "StarCellMaskGlow", PlayerLayer.Head, delegate (PlayerDrawInfo drawInfo)
         {
