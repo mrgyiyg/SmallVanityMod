@@ -26,6 +26,7 @@ current contents:
 -Jester's Mask
 -Leaf Mask
 -Cutesy Skeleton Hood
+-Stardust Tendril
 
 2 Pets:
 -Transitional Digital Friend
@@ -38,6 +39,7 @@ current contents:
 Changelog:
 
 0.1.4.4
+-added Stardust Tendril
 -added a light pet based on my pet shrimp, Perry
 
 0.1.4.3
