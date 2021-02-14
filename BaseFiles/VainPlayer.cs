@@ -27,6 +27,7 @@ namespace SmallVanityProject.BaseFiles
         public bool kuroMame;
         public bool flowInvaded;
         public bool perryPerihelion;
+        public bool mitraMitra;
         public static bool hasProjectile;
 
         public override void ResetEffects()
@@ -35,6 +36,7 @@ namespace SmallVanityProject.BaseFiles
             kuroMame = false;
             flowInvaded = false;
             perryPerihelion = false;
+            mitraMitra = false;
         } 
     
 public static readonly PlayerLayer StarCellMaskGlow = new PlayerLayer("SmallVanityProject", "StarCellMaskGlow", PlayerLayer.Head, delegate (PlayerDrawInfo drawInfo)
@@ -71,7 +73,7 @@ public static readonly PlayerLayer StarCellMaskGlow = new PlayerLayer("SmallVani
             Main.playerDrawData.Add(drawData);
         });
 
-        public static readonly PlayerLayer TwinklePopperMaskGlow = new PlayerLayer("SmallVanityProject", "TwinklePopperGlow", PlayerLayer.Head, delegate (PlayerDrawInfo drawInfo)
+        public static readonly PlayerLayer TwinklePopperMaskGlow = new PlayerLayer("SmallVanityProject", "TwinklePopperMaskGlow", PlayerLayer.Head, delegate (PlayerDrawInfo drawInfo)
         {
             if (drawInfo.shadow != 0f || drawInfo.drawPlayer.dead)
             {
@@ -89,6 +91,51 @@ public static readonly PlayerLayer StarCellMaskGlow = new PlayerLayer("SmallVani
             }
 
             Texture2D texture = mod.GetTexture("Items/Glow/TwinklePopperMask_Head_Glow");
+
+            float drawX = (int)drawInfo.position.X + drawPlayer.width / 2;
+            float drawY = (int)drawInfo.position.Y + drawPlayer.height - drawPlayer.bodyFrame.Height / 2 - 1f;
+
+            Vector2 origin = drawInfo.headOrigin;
+
+            Vector2 position = new Vector2(drawX, drawY) + drawPlayer.headPosition - Main.screenPosition;
+
+            float alpha = (255 - drawPlayer.immuneAlpha) / 255f;
+
+            Color color = Color.White;
+
+            Rectangle frame = drawPlayer.bodyFrame;
+
+            float rotation = drawPlayer.bodyRotation;
+
+            SpriteEffects spriteEffects = drawInfo.spriteEffects;
+
+            DrawData drawData = new DrawData(texture, position, frame, color * alpha, rotation, origin, 1f, spriteEffects, 0)
+            {
+                shader = drawInfo.headArmorShader
+                
+
+            };
+            Main.playerDrawData.Add(drawData);
+        });
+
+public static readonly PlayerLayer EmoSunGlow = new PlayerLayer("SmallVanityProject", "EmoSunGlow", PlayerLayer.Head, delegate (PlayerDrawInfo drawInfo)
+        {
+            if (drawInfo.shadow != 0f || drawInfo.drawPlayer.dead)
+            {
+                return;
+            }
+        
+            Player drawPlayer = drawInfo.drawPlayer;
+            Mod mod = ModLoader.GetMod("SmallVanityProject");
+
+            if (drawPlayer.head != mod.GetEquipSlot("EmoSun", EquipType.Head))
+            {
+                
+
+                return;
+            }
+
+            Texture2D texture = mod.GetTexture("Items/Glow/EmoSun_Head_Glow");
 
             float drawX = (int)drawInfo.position.X + drawPlayer.width / 2;
             float drawY = (int)drawInfo.position.Y + drawPlayer.height - drawPlayer.bodyFrame.Height / 2 - 1f;
@@ -167,6 +214,7 @@ DrawData drawData = new DrawData(texture, position, frame, color * alpha, rotati
 		if (headLayer > -1) {
 			layers.Insert(headLayer + 1, StarCellMaskGlow);
 			layers.Insert(headLayer + 1, TwinklePopperMaskGlow);
+			layers.Insert(headLayer + 1, EmoSunGlow);
 				}
 				
 		if (player.neck == mod.GetEquipSlot("MilkywayScarf", EquipType.Neck)) {
