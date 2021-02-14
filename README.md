@@ -5,7 +5,7 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-21 Vanity Items:<br>
+22 Vanity Items:<br>
 -His Visage<br>
 -His Tail<br>
 -Perry's Face<br>
@@ -26,13 +26,21 @@ current contents:
 -Yellow Pumpkinhead<br>
 -Jester's Mask<br>
 -Leaf Mask<br>
--Cutesy Skeleton Hood
+-Cutesy Skeleton Hood<br>
+-Stardust Tendril
 
 2 Pets:<br>
 -Transitional Digital Friend<br>
 -Flow Invader Shard
 
+1 Light Pet:<br>
+-Shrimp Spirit Vial
+
 Changelog:
+
+0.1.4.4<br>
+-added Stardust Tendril<br>
+-added a light pet based on my pet shrimp, Perry
 
 0.1.4.3<br>
 -added Jester's Mask<br>
