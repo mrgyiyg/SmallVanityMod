@@ -35,7 +35,8 @@ namespace SmallVanityProject.BaseFiles
             kuroMame = false;
             flowInvaded = false;
             perryPerihelion = false;
-        }        
+        } 
+    
 public static readonly PlayerLayer StarCellMaskGlow = new PlayerLayer("SmallVanityProject", "StarCellMaskGlow", PlayerLayer.Head, delegate (PlayerDrawInfo drawInfo)
         {
             if (drawInfo.shadow != 0f || drawInfo.drawPlayer.dead)
@@ -155,8 +156,10 @@ DrawData drawData = new DrawData(texture, position, frame, color * alpha, rotati
             {
                 shader = drawInfo.neckShader
             };
+            
             Main.playerDrawData.Add(drawData);
         });
+                     
         
          public override void ModifyDrawLayers(List<PlayerLayer> layers) {
          	int headLayer = layers.FindIndex(i => i == PlayerLayer.Head);
@@ -173,7 +176,7 @@ DrawData drawData = new DrawData(texture, position, frame, color * alpha, rotati
 			layers.Insert(neckLayer + 1, DustyScarf);
 				}
 			}
-
+			
 		}        
 
 		}
