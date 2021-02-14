@@ -4,7 +4,7 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-22 Vanity Items:
+23 Vanity Items:
 -His Visage
 -His Tail
 -Perry's Face
@@ -28,15 +28,19 @@ current contents:
 -Cutesy Skeleton Hood
 -Stardust Tendril
 
-2 Pets:
+3 Pets:
 -Transitional Digital Friend
 -Flow Invader Shard
+-Orange-spotted Miter Shell
 
 1 Light Pet:
 -Shrimp Spirit Vial
 
 
 Changelog:
+
+0.1.4.5
+-added Orange-spotted Miter Shell
 
 0.1.4.4
 -added Stardust Tendril

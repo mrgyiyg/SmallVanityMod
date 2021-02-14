@@ -89,6 +89,14 @@ public class ModGlobalNPC : GlobalNPC
                     Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("JesterMask"));
                 }
                 }
+                
+                         if (Main.rand.Next(10) == 0)
+            {
+                if (npc.type == NPCID.SeaSnail)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("MitraShell"));
+                }
+                }
             }
         
         public override void SetupShop(int type, Chest shop, ref int nextSlot) {
