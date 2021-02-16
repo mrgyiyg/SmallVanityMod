@@ -4,7 +4,7 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-23 Vanity Items:
+24 Vanity Items:
 -His Visage
 -His Tail
 -Perry's Face
@@ -27,6 +27,7 @@ current contents:
 -Leaf Mask
 -Cutesy Skeleton Hood
 -Stardust Tendril
+-Kubinashi Hood
 
 3 Pets:
 -Transitional Digital Friend
@@ -41,6 +42,9 @@ current contents:
 
 
 Changelog:
+
+0.1.4.8
+-added Kubinashi Hood
 
 0.1.4.7
 -added attack projectile for Startouched
