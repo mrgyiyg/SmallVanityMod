@@ -11,7 +11,7 @@ namespace SmallVanityProject.Projectiles
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Kuromametchi");
-            Main.projFrames[projectile.type] = 9;
+            Main.projFrames[projectile.type] = 10;
             Main.projPet[projectile.type] = true;
         }    
     
