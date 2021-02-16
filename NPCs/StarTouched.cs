@@ -1,5 +1,6 @@
 using System;
 using SmallVanityProject.Items;
+using SmallVanityProject.Projectiles;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
@@ -21,9 +22,9 @@ namespace SmallVanityProject.NPCs
 
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Startouched");
-			Main.npcFrameCount[npc.type] = 22;
+			Main.npcFrameCount[npc.type] = 25;
 			NPCID.Sets.ExtraFramesCount[npc.type] = 9;
-			NPCID.Sets.AttackFrameCount[npc.type] = 1;
+			NPCID.Sets.AttackFrameCount[npc.type] = 4;
 			NPCID.Sets.DangerDetectRange[npc.type] = 700;
 			NPCID.Sets.AttackType[npc.type] = 0;
 			NPCID.Sets.AttackTime[npc.type] = 30;
@@ -34,8 +35,8 @@ namespace SmallVanityProject.NPCs
 		public override void SetDefaults() {
 			npc.townNPC = true;
 			npc.friendly = true;
-			npc.width = 18;
-			npc.height = 40;
+			npc.width = 40;
+			npc.height = 56;
 			npc.aiStyle = 7;
 			npc.damage = 10;
 			npc.defense = 15;
@@ -61,7 +62,6 @@ namespace SmallVanityProject.NPCs
 			}
 			return false;
 		}
-
 
 		public override string TownNPCName() {
 			switch (WorldGen.genRand.Next(4)) {
@@ -123,7 +123,7 @@ namespace SmallVanityProject.NPCs
 		}
 
 		public override void TownNPCAttackStrength(ref int damage, ref float knockback) {
-			damage = 20;
+			damage = 30;
 			knockback = 4f;
 		}
 
@@ -133,7 +133,7 @@ namespace SmallVanityProject.NPCs
 		}
 
 		public override void TownNPCAttackProj(ref int projType, ref int attackDelay) {
-			projType = (ProjectileID.StardustCellMinionShot);
+			projType = mod.ProjectileType("Twinkleshot");
 			attackDelay = 1;
 		}
 
