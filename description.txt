@@ -36,8 +36,15 @@ current contents:
 1 Light Pet:
 -Shrimp Spirit Vial
 
+1 Town NPC:
+-Startouched
+
 
 Changelog:
+
+0.1.4.6
+-added town NPC
+-adjusted some recipes
 
 0.1.4.5
 -added Orange-spotted Miter Shell
