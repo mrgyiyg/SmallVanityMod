@@ -42,6 +42,10 @@ current contents:
 
 Changelog:
 
+0.1.4.7
+-added attack projectile for Startouched
+-adjusted frames on Kuromametchi pet
+
 0.1.4.6
 -added town NPC
 -adjusted some recipes
