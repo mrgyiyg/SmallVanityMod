@@ -47,13 +47,6 @@ namespace SmallVanityProject.Items
 	);
 }
 	
-	        public override void ArmorSetShadows(Player player)
-        {
-            player.armorEffectDrawShadow = true;
 
-           
-            //Lighting.AddLight(player.Center, .2f, .2f, .2f);
-        }
-		
 	}
 }

@@ -48,14 +48,6 @@ namespace SmallVanityProject.Items
 		0f
 	);
 }
-
-		public override void AddRecipes() {
-			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.FragmentStardust, 10);			
-			recipe.AddTile(TileID.LunarMonolith);
-			recipe.SetResult(this);
-			recipe.AddRecipe();
-		}
 		
 	}
 }

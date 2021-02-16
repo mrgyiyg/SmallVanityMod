@@ -29,7 +29,7 @@ namespace SmallVanityProject.Items
 		public override void AddRecipes() {
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.TissueSample, 2);			
-			recipe.AddTile(TileID.LunarMonolith);
+			recipe.AddTile(TileID.LunarCraftingStation);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
