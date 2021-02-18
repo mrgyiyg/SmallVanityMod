@@ -41,7 +41,16 @@ current contents:
 1 Town NPC:<br>
 -Startouched
 
+1 Critter:<br>
+-Ant
+
+1 Decorative Item:<br>
+-Ant Farm
+
 Changelog:
+
+0.1.4.9<br>
+-added Ant and Ant Farm
 
 0.1.4.8<br>
 -added Kubinashi Hood
