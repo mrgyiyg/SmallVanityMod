@@ -49,6 +49,13 @@ current contents:
 
 Changelog:
 
+0.1.5.1<br>
+-adjusted Ant size
+
+0.1.5.0<br>
+-adjusted some sprite positioning<br>
+-adjusted some recipes
+
 0.1.4.9<br>
 -added Ant and Ant Farm
 
