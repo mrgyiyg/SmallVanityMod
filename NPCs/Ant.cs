@@ -17,8 +17,8 @@ namespace SmallVanityProject.NPCs
 		}
 
 		public override void SetDefaults() {
-			npc.width = 8;
-			npc.height = 5;
+			npc.width = 16;
+			npc.height = 10;
 			npc.CloneDefaults(NPCID.Scorpion);
 			npc.catchItem = (short)ModContent.ItemType<AntItem>();
 			npc.lavaImmune = true;
@@ -69,8 +69,8 @@ namespace SmallVanityProject.NPCs
 			item.useTime = 10;
 			item.maxStack = 999;
 			item.consumable = true;
-			item.width = 8;
-			item.height = 5;
+			item.width = 16;
+			item.height = 10;
 			item.noUseGraphic = true;
 			item.CloneDefaults(ItemID.Scorpion);
 			item.bait = 5;

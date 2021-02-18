@@ -29,7 +29,7 @@ namespace SmallVanityProject.NPCs
 			NPCID.Sets.AttackType[npc.type] = 0;
 			NPCID.Sets.AttackTime[npc.type] = 30;
 			NPCID.Sets.AttackAverageChance[npc.type] = 30;
-			NPCID.Sets.HatOffsetY[npc.type] = -4;
+			NPCID.Sets.HatOffsetY[npc.type] = 10;
 		}
 
 		public override void SetDefaults() {
