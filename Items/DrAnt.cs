@@ -29,7 +29,8 @@ namespace SmallVanityProject.Items
 		
 		public override void AddRecipes() {
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.LesserManaPotion, 3);			
+			recipe.AddIngredient(mod.ItemType("AntItem"), 1);
+			recipe.AddIngredient(ItemID.LesserManaPotion, 1);			
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
