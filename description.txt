@@ -28,6 +28,7 @@ current contents:
 -Cutesy Skeleton Hood
 -Stardust Tendril
 -Kubinashi Hood
+-Face
 
 3 Pets:
 -Transitional Digital Friend
@@ -48,6 +49,9 @@ current contents:
 
 
 Changelog:
+
+0.1.5.2
+-added Face
 
 0.1.5.1
 -adjusted Ant size
