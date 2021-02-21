@@ -28,6 +28,7 @@ namespace SmallVanityProject.BaseFiles
         public bool flowInvaded;
         public bool perryPerihelion;
         public bool mitraMitra;
+        public bool ginjiroTen;
         public static bool hasProjectile;
 
         public override void ResetEffects()
@@ -37,6 +38,7 @@ namespace SmallVanityProject.BaseFiles
             flowInvaded = false;
             perryPerihelion = false;
             mitraMitra = false;
+            ginjiroTen = false;
         } 
     
 public static readonly PlayerLayer StarCellMaskGlow = new PlayerLayer("SmallVanityProject", "StarCellMaskGlow", PlayerLayer.Head, delegate (PlayerDrawInfo drawInfo)
