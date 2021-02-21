@@ -28,10 +28,12 @@ current contents:
 -Leaf Mask<br>
 -Cutesy Skeleton Hood<br>
 -Stardust Tendril<br>
--Kubinashi Hood
+-Kubinashi Hood<br>
+-Face
 
 3 Pets:<br>
 -Transitional Digital Friend<br>
+-Angelic Digital Friend<br>
 -Flow Invader Shard<br>
 -Orange-spotted Miter Shell
 
@@ -48,6 +50,12 @@ current contents:
 -Ant Farm
 
 Changelog:
+
+0.1.5.3<br>
+-added Ginjirotenshi pet
+
+0.1.5.2<br>
+-added Face
 
 0.1.5.1<br>
 -adjusted Ant size
