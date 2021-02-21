@@ -31,7 +31,7 @@ current contents:
 -Kubinashi Hood<br>
 -Face
 
-3 Pets:<br>
+4 Pets:<br>
 -Transitional Digital Friend<br>
 -Angelic Digital Friend<br>
 -Flow Invader Shard<br>
