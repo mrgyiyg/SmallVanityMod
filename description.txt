@@ -30,8 +30,9 @@ current contents:
 -Kubinashi Hood
 -Face
 
-3 Pets:
+4 Pets:
 -Transitional Digital Friend
+-Angelic Digital Friend
 -Flow Invader Shard
 -Orange-spotted Miter Shell
 
@@ -49,6 +50,9 @@ current contents:
 
 
 Changelog:
+
+0.1.5.3
+-added Ginjirotenshi pet
 
 0.1.5.2
 -added Face
