@@ -5,7 +5,7 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-24 Vanity Items:<br>
+25 Vanity Items:<br>
 -His Visage<br>
 -His Tail<br>
 -Perry's Face<br>
@@ -29,7 +29,8 @@ current contents:
 -Cutesy Skeleton Hood<br>
 -Stardust Tendril<br>
 -Kubinashi Hood<br>
--Face
+-Face<br>
+-Jumping Spider Mask
 
 4 Pets:<br>
 -Transitional Digital Friend<br>
@@ -50,6 +51,12 @@ current contents:
 -Ant Farm
 
 Changelog:
+
+0.1.5.5<br>
+-added Jumping Spider Mask
+
+0.1.5.4<br>
+-updated Ginjirotenshi pet animations
 
 0.1.5.3<br>
 -added Ginjirotenshi pet
