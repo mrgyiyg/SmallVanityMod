@@ -4,7 +4,7 @@ small first test mod that adds a couple vanity items. that's all
 
 current contents:
 
-24 Vanity Items:
+25 Vanity Items:
 -His Visage
 -His Tail
 -Perry's Face
@@ -29,6 +29,7 @@ current contents:
 -Stardust Tendril
 -Kubinashi Hood
 -Face
+-Jumping Spider Mask
 
 4 Pets:
 -Transitional Digital Friend
@@ -50,6 +51,12 @@ current contents:
 
 
 Changelog:
+
+0.1.5.5
+-added Jumping Spider Mask
+
+0.1.5.4
+-updated Ginjirotenshi pet animations
 
 0.1.5.3
 -added Ginjirotenshi pet
